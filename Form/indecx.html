@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color: blueviolet; text-align: center;">Info </h1>
+
+    <form action="post" style="text-align: center;">
+    <div>
+        <label for="Username">Enter your username : </label>
+        <input type="text" name="Username" placeholder="Enter your Username">
+    </div>
+
+
+    <label for="Gender">Gender : </label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+            
+    </form>
+
+    <div style="text-align: center;">
+
+        <input type="checkbox" id="Married" name="Married status" value="Married">
+        <label for="Married"> Married </label>
+
+        <input type="checkbox" id="Unmarried" name="Unmarried status" value="Unmarried">
+        <label for="Unmarried"> Unmarried </label>
+
+    </div>
+   
+    <label for="Description">Give Description : </label>
+    
+   <div>
+
+    <textarea name="Description" id="status" cols="30" rows="10">Give some Description....</textarea>
+
+   </div>
+
+   <div>
+    <label for="Mobile">Fav. Mobile Comapany :</label>
+<select name="Mobile" id="Comapany">
+    <option value="select">Select...</option>
+    <option value="iphone">iphone</option>
+    <option value="OnePluse">Onepluse</option>
+    <option value="redme">redme</option>
+    <option value="realme">realme</option>
+    <option value="Pocco">Pocco</option>
+</select>
+
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
