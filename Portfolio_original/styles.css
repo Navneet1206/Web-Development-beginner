@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 
 body {
@@ -218,3 +217,28 @@ textarea {
   border-image: initial;
   white-space: pre-wrap;
 }
+.code-box {
+  border: 1px solid #ccc;
+  background-color: #1f1f54;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.vertical-line {
+  border-left: 2px solid rgb(247, 243, 243); 
+   height: 200px;
+}
+
+/* 
+.secondSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 118px; 
+}
+
+.vertical-line {
+  border-left: 2px solid rgb(247, 243, 243); 
+  height: 200px; 
+  margin-right: 50px; 
+} */
