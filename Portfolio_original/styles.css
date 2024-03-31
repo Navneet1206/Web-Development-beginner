@@ -218,5 +218,25 @@ footer {
 .vertical-line {
   border-left: 2px solid rgb(247, 243, 243);
   height: 600px;
-  margin-left: 550px;
+  margin-left: 200px;
 }
+
+.secondSection .left-second-section-first-column {
+margin-left: 50px;
+}
+.secondSection .left-second-section-first-column img{
+height: 50px;
+width: 50px;
+
+}
+.secondSection .left-second-section-second-column {
+margin-left: 100px;
+
+}
+.secondSection .left-second-section-second-column img{
+height: 50px;
+width: 50px;
+
+}
+
+
