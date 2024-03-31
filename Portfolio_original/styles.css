@@ -139,7 +139,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 118px;
+  margin-top: 0px;
+  margin-bottom: 90px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .right-second-section {
@@ -148,17 +151,30 @@ footer {
 
 }
 
-.right-second-section label,
-.right-second-section input,
-.right-second-section textarea,
-.right-second-section button {
+.right-second-section label {
   margin-bottom: 20px;
   margin-top: 10px;
+
+}
+
+.right-second-section input {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 200px;
+  height: 20px;
+}
+
+.right-second-section textarea {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 80px;
 }
 
 
+
 .right-second-section button {
-  margin-top: 20px;
+
+  margin-left: 60px;
 }
 
 .right-second-section textarea {
@@ -190,10 +206,6 @@ footer {
   margin-left: 20px;
   color: #ccc;
   text-decoration: none;
-}
-
-textarea {
-  height: 50px;
 }
 
 .code-box {
