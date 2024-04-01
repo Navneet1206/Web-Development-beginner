@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navneet Vishwakarma | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Navneet's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Navneet</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn"><a href="#">Download Resume</a></button>
+          <button class="btn"><a href="https://github.com/Navneet1206">Visit Github</a></button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="Elements/bg.png" alt="profile picture">
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <div class="left-second-section-first-column">
+        <h2>Skills</h2>
+        <img src="Elements/HTML.png" alt="HTML">
+        <img src="Elements/CSS.png" alt="CSS">
+        <img src="Elements/C_lan.png" alt="C">
+        <img src="Elements/CPP_lan.png" alt="CPP">
+      </div>
+      <div class="left-second-section-second-column">
+        <h2>Skills</h2>
+        <img src="Elements/HTML.png" alt="HTML">
+        <img src="Elements/CSS.png" alt="CSS">
+        <img src="Elements/C_lan.png" alt="C">
+        <img src="Elements/CPP_lan.png" alt="CPP">
+      </div>
+      <div class="right-second-section">
+        <div class="code-box">
+          <label for="name">Name</label>
+          <input type="text" id="name">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+          <label for="message">Any Message</label>
+          <textarea name="Any Message" id="message" cols="40" rows="2"></textarea>
+          <button type="button" class="btn btn-primary" id="submitButton">Submit</button>
+        </div>
+      </div>
+    </section>
+    <section class="thirdSection">
+        <div class="content">
+          <h2>Experience</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio id libero consequat, eget volutpat arcu aliquam. Donec sed dui vel nunc vehicula consequat.</p>
+          <div class="images">
+            <img src="path/to/image1.jpg" alt="Image 1">
+            <img src="path/to/image2.jpg" alt="Image 2">
+            <img src="path/to/image3.jpg" alt="Image 3">
+          </div>
+        </div>
+      </section>
+      <section class="portfolioSection">
+        <div class="portfolioItem">
+          <img src="path/to/project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="portfolioItem">
+          <img src="path/to/project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- Add more portfolio items as needed -->
+      </section>
+            
+  </main>
+  <footer>
+    <div class="left-footer">
+      <h3>Get in Touch</h3>
+    </div>
+    <div class="icons">
+      <a href="https://github.com/Navneet1206" target="_blank"><img src="./Elements/GitHub-Mark-ea2971cee799.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/navneet-vishwakarma-b678aa262/" target="_blank"><img src="./Elements/LinkedIn (1).png" alt=""></a>
+      <a href="https://twitter.com/SRT_Navneet" target="_blank"><img src="./Elements/X.avif" alt=""></a>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#all?compose=DmwnWrRtsncWVPpkfVXZJnxDxhGszRNjhHbtzgkzClhcbCwmTSDTGJvCRqQdkNpFWFCZqWSzJcNG"><img src="./Elements/gmail-new-icon5198.jpg" alt=""></a>
+      <a href="https://discord.gg/BG4xjywE" target="_blank"><img src="./Elements/discord-round-color-icon.webp" alt=""></a>
+      <a href="https://www.instagram.com/navneet_12_004/"><img src="./Elements/instagram-icon_1057-2227.avif" alt=""></a>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Software Developer", "Web Developer", "Video Editor"],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

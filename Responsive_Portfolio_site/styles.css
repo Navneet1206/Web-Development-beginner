@@ -1,0 +1,222 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 33);
+    color: white;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: rgb(18, 18, 62);
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Main Section Styles */
+  main {
+    padding: 20px;
+  }
+  
+  .firstSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftSection, .rightSection {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #6c5ce7; /* New button background color */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Change font family */
+    font-weight: bold; /* Add bold font weight */
+    text-transform: uppercase; /* Convert text to uppercase */
+  }
+  
+  .btn:hover {
+    background-color: #4834d4; /* New hover background color */
+  }
+  
+  /* Adjust font for better readability */
+  .btn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .leftSection {
+    font-size: 2rem;
+  }
+  
+  .rightSection img {
+    max-width: 100%;
+  }
+  
+  /* Second Section Styles */
+  .secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .left-second-section-first-column, .left-second-section-second-column, .right-second-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .left-second-section-first-column img, .left-second-section-second-column img {
+    max-width: 50px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .right-second-section label, .right-second-section input, .right-second-section textarea, .right-second-section button {
+    display: block;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    max-width: 300px;
+  }
+  
+  .right-second-section button {
+    background-color: #1e2167;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .right-second-section button:hover {
+    background-color: #3d3f91;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #0e0e1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .icons img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .thirdSection {
+    background-color: #111;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .thirdSection .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .thirdSection h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .thirdSection p {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .thirdSection .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thirdSection .images img {
+    max-width: 200px;
+    margin: 0 20px;
+  }
+  .portfolioSection {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .portfolioItem {
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+  
+  .portfolioItem img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .portfolioItem h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .portfolioItem p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .portfolioItem a {
+    display: inline-block;
+    background-color: #1e2167;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .portfolioItem a:hover {
+    background-color: #3d3f91;
+  }
+    
