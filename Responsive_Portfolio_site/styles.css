@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(0, 0, 33);
+  background-color: white;
   color: white;
   margin: 0;
 }
@@ -25,6 +25,7 @@ nav {
 }
 
 .logo {
+  padding-right: 10px;
   font-size: 1.5rem;
   color: white;
 }
@@ -53,6 +54,7 @@ main {
 }
 
 .firstSection {
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -104,6 +106,16 @@ main {
   align-items: center;
   margin-top: 30px;
 }
+.about{
+    background-color: rgb(255, 255, 255);
+}
+.about h1{
+  text-align: center;
+  color: black;
+}
+.secondSection h2{
+  color: black;
+}
 
 .left-second-section-first-column, .left-second-section-second-column, .right-second-section {
   flex: 1;
@@ -121,6 +133,7 @@ main {
   display: block;
   margin: 10px auto;
   width: calc(100% - 20px);
+  color: #0e0e1a;
   max-width: 300px;
 }
 
@@ -147,82 +160,4 @@ footer {
 .icons img {
   width: 30px;
   margin: 0 10px;
-}
-
-.thirdSection {
-  background-color: #111;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.thirdSection .content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.thirdSection h2 {
-  color: white;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.thirdSection p {
-  color: white;
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
-
-.thirdSection .images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.thirdSection .images img {
-  max-width: 200px;
-  margin: 0 20px;
-}
-
-.portfolioSection {
-  background-color: #222;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.portfolioItem {
-  max-width: 300px;
-  margin: 0 auto 30px;
-
-}
-
-.portfolioItem img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-.portfolioItem h3 {
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 10px;
-}
-
-.portfolioItem p {
-  color: white;
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-.portfolioItem a {
-  display: inline-block;
-  background-color: #1e2167;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
-}
-
-.portfolioItem a:hover {
-  background-color: #3d3f91;
 }
