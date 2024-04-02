@@ -9,16 +9,14 @@
 <body>
   <header>
     <nav>
-      <div class="left">Navneet's Portfolio</div>
-      <div class="right">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact me</a></li>
-        </ul>
-      </div>
+      <div class="logo">Navneet's Portfolio</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact me</a></li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -65,32 +63,31 @@
       </div>
     </section>
     <section class="thirdSection">
-        <div class="content">
-          <h2>Experience</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio id libero consequat, eget volutpat arcu aliquam. Donec sed dui vel nunc vehicula consequat.</p>
-          <div class="images">
-            <img src="path/to/image1.jpg" alt="Image 1">
-            <img src="path/to/image2.jpg" alt="Image 2">
-            <img src="path/to/image3.jpg" alt="Image 3">
-          </div>
+      <div class="content">
+        <h2>Experience</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio id libero consequat, eget volutpat arcu aliquam. Donec sed dui vel nunc vehicula consequat.</p>
+        <div class="images">
+          <img src="path/to/image1.jpg" alt="Image 1">
+          <img src="path/to/image2.jpg" alt="Image 2">
+          <img src="path/to/image3.jpg" alt="Image 3">
         </div>
-      </section>
-      <section class="portfolioSection">
-        <div class="portfolioItem">
-          <img src="path/to/project1.jpg" alt="Project 1">
-          <h3>Project 1</h3>
-          <p>Description of Project 1</p>
-          <a href="#">View Project</a>
-        </div>
-        <div class="portfolioItem">
-          <img src="path/to/project2.jpg" alt="Project 2">
-          <h3>Project 2</h3>
-          <p>Description of Project 2</p>
-          <a href="#">View Project</a>
-        </div>
-        <!-- Add more portfolio items as needed -->
-      </section>
-            
+      </div>
+    </section>
+    <section class="portfolioSection">
+      <div class="portfolioItem">
+        <img src="path/to/project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of Project 1</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="portfolioItem">
+        <img src="path/to/project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of Project 2</p>
+        <a href="#">View Project</a>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </section>
   </main>
   <footer>
     <div class="left-footer">
@@ -111,6 +108,22 @@
       strings: ["Software Developer", "Web Developer", "Video Editor"],
       typeSpeed: 50,
     });
+    // Function to toggle dark mode
+    function toggleDarkMode() {
+      const body = document.body;
+      body.classList.toggle("dark-mode");
+    }
+
+    // Function to handle form submission
+    function handleSubmit(event) {
+      event.preventDefault();
+      // You can add your form submission logic here
+      alert("Form submitted successfully!");
+    }
+
+    // Add event listeners
+    document.getElementById("submitButton").addEventListener("click", handleSubmit);
+
   </script>
 </body>
 </html>
