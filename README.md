@@ -53,3 +53,62 @@ Here are some additional resources to help you on your web development journey:
 - [FreeCodeCamp](https://www.freecodecamp.org/): A free platform for learning web development.
 
 Feel free to explore the files and folders in this repository to find more detailed tutorials and examples. Happy coding!
+
+Block Elements (Most Commonly Used First)
+
+&ltdiv&gt: A generic container for flow content.
+&ltp&gt: Paragraph.
+&lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, &lth6&gt: Headings.
+&ltul&gt: Unordered list.
+&ltol&gt: Ordered list.
+&ltli&gt: List item.
+&ltform&gt: A section containing form controls.
+&lttable&gt: Table.
+&ltsection&gt: A standalone section of a document.
+&ltheader&gt: A container for introductory content or a set of navigational links.
+&ltfooter&gt: Footer of a section or page.
+&ltnav&gt: A section of a page that contains navigation links.
+&ltarticle&gt: A self-contained composition in a document.
+&ltaside&gt: A section of a page that contains information indirectly related to the main content.
+&ltmain&gt: The main content of a document.
+&ltfieldset&gt: A set of form controls grouped under a common name.
+&ltblockquote&gt: A block of text that is a quotation from another source.
+&ltpre&gt: Preformatted text.
+&ltcanvas&gt: A container used to draw graphics via JavaScript.
+&ltdl&gt: Description list.
+&ltdt&gt: Term in a description list.
+&ltdd&gt: Description in a description list.
+&ltfigure&gt: Any content that is referenced from the main content.
+&ltfigcaption&gt: A caption for a &ltfigure&gt element.
+&ltaddress&gt: Contact information for the author or owner of the document.
+&lthr&gt: A thematic break or a horizontal rule.
+&lttfoot&gt: Footer of a table.
+
+
+
+Inline Elements (Most Commonly Used First)
+&lta&gt: Anchor or hyperlink.
+&ltimg&gt: Image.
+&ltspan&gt: Generic inline container.
+&ltinput&gt: Input field.
+&ltlabel&gt: Label for a form element.
+&ltstrong&gt: Strong emphasis.
+&ltem&gt: Emphasized text.
+&ltbr&gt: Line break.
+&ltcode&gt: Code snippet.
+&ltb&gt: Bold text.
+&lti&gt: Italic text.
+&ltu&gt: Underlined text.
+&ltsmall&gt: Smaller text.
+&ltsub&gt: Subscript.
+&ltsup&gt: Superscript.
+&ltmark&gt: Marked or highlighted text.
+&ltq&gt: Short inline quotation.
+&ltcite&gt: Citation.
+&ltkbd&gt: Keyboard input.
+&ltsamp&gt: Sample output.
+&ltvar&gt: Variable in a mathematical expression or programming context.
+&lttime&gt: Time.
+&ltabbr&gt: Abbreviation.
+&ltdata&gt: Machine-readable translation of content.
+&ltacronym&gt: Acronym (Not supported in HTML5).
