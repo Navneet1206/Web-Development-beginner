@@ -56,59 +56,62 @@ Feel free to explore the files and folders in this repository to find more detai
 
 Block Elements (Most Commonly Used First)
 
-div>: A generic container for flow content.
-p>: Paragraph.
-h1>, h2>, h3>, h4>, h5>, h6>: Headings.
-ul>: Unordered list.
-ol>: Ordered list.
-li>: List item.
-form>: A section containing form controls.
-table>: Table.
-section>: A standalone section of a document.
-header>: A container for introductory content or a set of navigational links.
-footer>: Footer of a section or page.
-nav>: A section of a page that contains navigation links.
-article>: A self-contained composition in a document.
-aside>: A section of a page that contains information indirectly related to the main content.
-main>: The main content of a document.
-fieldset>: A set of form controls grouped under a common name.
-blockquote>: A block of text that is a quotation from another source.
-pre>: Preformatted text.
-canvas>: A container used to draw graphics via JavaScript.
-dl>: Description list.
-dt>: Term in a description list.
-dd>: Description in a description list.
-figure>: Any content that is referenced from the main content.
-figcaption>: A caption for a figure> element.
-address>: Contact information for the author or owner of the document.
-hr>: A thematic break or a horizontal rule.
+div>: A generic container for flow content.<br>
+p>: Paragraph.<br>
+h1>, h2>, h3>, h4>, h5>, h6>: Headings.<br>
+ul>: Unordered list.<br>
+ol>: Ordered list.<br>
+li>: List item.<br>
+form>: A section containing form controls.<br>
+table>: Table.<br>
+section>: A standalone section of a document.<br>
+header>: A container for introductory content or a set of navigational links.<br>
+footer>: Footer of a section or page.<br>
+nav>: A section of a page that contains navigation links.<br>
+article>: A self-contained composition in a document.<br>
+aside>: A section of a page that contains information indirectly related to the main content.<br>
+main>: The main content of a document.<br>
+fieldset>: A set of form controls grouped under a common name.<br>
+blockquote>: A block of text that is a quotation from another source.<br>
+pre>: Preformatted text.<br>
+canvas>: A container used to draw graphics via JavaScript.<br>
+dl>: Description list.<br>
+dt>: Term in a description list.<br>
+dd>: Description in a description list.<br>
+figure>: Any content that is referenced from the main content.<br>
+figcaption>: A caption for a figure> element.<br>
+address>: Contact information for the author or owner of the document.<br>
+hr>: A thematic break or a horizontal rule.<br>
 tfoot>: Footer of a table.
+<br>
+<br>
+<br>
+<br>
 
 
-
-Inline Elements (Most Commonly Used First)
-a>: Anchor or hyperlink.
-img>: Image.
-span>: Generic inline container.
-input>: Input field.
-label>: Label for a form element.
-strong>: Strong emphasis.
-em>: Emphasized text.
-br>: Line break.
-code>: Code snippet.
-b>: Bold text.
-i>: Italic text.
-u>: Underlined text.
-small>: Smaller text.
-sub>: Subscript.
-sup>: Superscript.
-mark>: Marked or highlighted text.
-q>: Short inline quotation.
-cite>: Citation.
-kbd>: Keyboard input.
-samp>: Sample output.
-var>: Variable in a mathematical expression or programming context.
-time>: Time.
-abbr>: Abbreviation.
-data>: Machine-readable translation of content.
-acronym>: Acronym (Not supported in HTML5).
+Inline Elements (Most Commonly Used First)<br>
+a>: Anchor or hyperlink.<br>
+img>: Image.<br>
+span>: Generic inline container.<br>
+input>: Input field.<br>
+label>: Label for a form element.<br>
+strong>: Strong emphasis.<br>
+em>: Emphasized text.<br>
+br>: Line break.<br>
+code>: Code snippet.<br>
+b>: Bold text.<br>
+i>: Italic text.<br>
+u>: Underlined text.<br>
+small>: Smaller text.<br>
+sub>: Subscript.<br>
+sup>: Superscript.<br>
+mark>: Marked or highlighted text.<br>
+q>: Short inline quotation.<br>
+cite>: Citation.<br>
+kbd>: Keyboard input.<br>
+samp>: Sample output.<br>
+var>: Variable in a mathematical expression or programming context.<br>
+time>: Time.<br>
+abbr>: Abbreviation.<br>
+data>: Machine-readable translation of content.<br>
+acronym>: Acronym (Not supported in HTML5).<br>
