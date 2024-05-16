@@ -1,0 +1,53 @@
+.container{
+    min-width: 80vw;
+    min-height: 80vh;
+    border: 2px solid gray;
+    display: flex;
+    padding: 10px;
+}
+
+.item1{
+    min-width: 30vw;
+    min-height: 30vh;
+    margin: 10px;
+    border: 1px solid red;
+    background-color: red;
+    
+}
+.item2{
+    min-width: 30vw;
+    min-height: 30vh;
+    margin: 10px;
+    position: relative;
+    border: 1px solid red;
+    background-color: red;
+}
+
+@media only screen and (max-width:720px)
+{
+    .container{
+        min-width: 80vw;
+        min-height: 80vh;
+        border: 2px solid gray;
+        display: block;
+        padding: 10px;
+    }
+    
+    
+.item1{
+    min-width: 30vw;
+    min-height: 30vh;
+    margin: 10px;
+    border: 1px solid red;
+    background-color: rgb(33, 168, 221);
+    
+}
+.item2{
+    min-width: 30vw;
+    min-height: 30vh;
+    margin: 10px;
+    position: relative;
+    border: 1px solid red;
+    background-color: rgb(52, 250, 250);
+}
+}
