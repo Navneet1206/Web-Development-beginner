@@ -1,0 +1,80 @@
+.container{
+    height: 180vh;
+    width: 480px;
+    background-color: aqua;
+   
+    border-color: 2px solid black;
+}
+.box{
+        min-height: 80px;
+        border-color: 2px solid black;
+        width: 80px;
+        background-color: gray;
+        position: relative;
+        left: 40px;
+        top: 440px;
+        animation: autorotate;
+        animation-timeline: view();
+        margin: 20px;
+}
+@keyframes  autorotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.para{
+    height: 440px;
+}
+
+h1{ 
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+    animation: heading both;
+    animation-timeline: view(40% 30%);
+}
+
+@keyframes heading{ 
+    0%{
+        opacity: 0;
+        transform: translateX(200px) scale(0.3);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+
+.auto__blur{
+    font-size: 100px;
+    text-align: center;
+    animation: autoblur both;
+    animation-timeline: view();
+}
+
+@keyframes autoblur{
+    0%{
+        filter: blur(40px);
+    }
+    45%,55%{
+        filter: blur(0px);
+    }
+    100%{
+        filter: blur(40px);
+    }
+}
+
+
+
+
+
+
+footer{
+    min-height: 60vh;
+}
