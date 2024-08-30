@@ -1,18 +1,6 @@
-.container{
-    height: 180vh;
-    width: 480px;
-    background-color: aqua;
-   
-    border-color: 2px solid black;
-}
+
 .box{
-        min-height: 80px;
-        border-color: 2px solid black;
-        width: 80px;
-        background-color: gray;
-        position: relative;
-        left: 40px;
-        top: 440px;
+       
         animation: autorotate;
         animation-timeline: view();
         margin: 20px;
