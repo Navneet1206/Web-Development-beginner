@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.layer-back {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    animation: moveBack 20s linear infinite; /* Background layer animation */
+}
+
+.layer-middle {
+    background-image: url('https://source.unsplash.com/1600x900/?forest');
+    animation: moveMiddle 15s linear infinite; /* Middle layer animation */
+}
+
+.layer-front {
+    background-image: url('https://source.unsplash.com/1600x900/?mountain');
+    animation: moveFront 10s linear infinite; /* Foreground layer animation */
+}
+
+@keyframes moveBack {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes moveMiddle {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-25%); }
+}
+
+@keyframes moveFront {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10%); }
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.card {
+    background: rgba(255, 99, 71, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    animation: scaleUp 0.3s forwards; /* Scale animation on hover */
+    background-color: #ff6f61; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1) rotate(5deg);
+    }
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+}
