@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Height of the container */
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.ball-f {
+    background-color: #6a5acd; /* Color for ball F */
+    left: -53.9px; /* Start position off-screen */
+    animation-name: rollF;
+    
+}
+
+.ball-s {
+    background-color: #ff6f61; /* Color for ball S */
+    right: -53.9px; /* Start position off-screen */
+    animation-name: rollS;
+}
+
+@keyframes rollF {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(53.9vw - 24.9px)); /* Move to the center */
+    }
+    100% {
+        transform: translateX(calc(53.9vw - 24.9px)) scale(2); /* Overlap and scale */
+    }
+}
+
+@keyframes rollS {
+    0% {
+        color: white;
+        transform: translateX(0);
+    }
+    50% {
+        color: white;
+        transform: translateX(calc(-53.9vw + 24.9px)); /* Move to the center */
+    }
+    100% {
+        color: #ff6f61;
+        transform: translateX(calc(-53.9vw + 24.9px)) scale(100); /* Overlap and scale */
+    }
+}
+
+.energy {
+    color: white;
+   position: relative;
+   bottom: 0;
+    transform: translate(-50%, -50%) translateX(100%); /* Start off-screen to the right */
+    font-size: 80px;
+    font-weight: bold;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 10s forwards 0s; /* Fade in after balls meet */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+        transform:  translate(-55%,100%) translateX(0%); /* Move in from the right */
+    }
+    100% {
+        opacity: 1;
+        
+        transform: translate(-55%,100%) translateX(100%); /* Final position */
+        
+    }
+}
+
