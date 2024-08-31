@@ -248,6 +248,26 @@ img {
     color: var(--first-color);
 }
 
+.nav__link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--first-color), var(--first-color-alt)); /* Gradient color */
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav__link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.nav__item{
+    position: relative;
+}
+
 .nav__icon {
     font-size: 1.2rem;
 }
