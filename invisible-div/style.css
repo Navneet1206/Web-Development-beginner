@@ -10,8 +10,13 @@ button{
   background-color: rgb(37, 102, 102);
   height: 260px;
   width: 250px;
-  display: none; /* hide by default */
-  /* add grid styles here */
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  display: none; 
+  position: fixed;
+  right: 0;
+}
+
+.outer{
+  background-color: beige;
+  height: 560px;
+  width: 550px;
 }
