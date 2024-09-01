@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showing Div after click</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #cross{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn" onclick="clickme()">Click me</button>
+    <div class="inner">
+        <button id="cross" onclick="displ()">cross</button>
+    </div>
+    <script>
+        function clickme() {
+            let x = document.getElementsByClassName('inner')[0];
+            x.style.display = "grid";
+            let y = document.getElementById('btn');
+            y.style.display = "none";
+        }
+        function displ(){
+            let m = document.getElementsByClassName('inner')[0];
+            m.style.display = "none"
+            let y = document.getElementById('btn');
+            y.style.display = "grid";
+        }
+    </script>
+</body>
+
+</html>

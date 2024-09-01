@@ -1,0 +1,17 @@
+button{
+  height: 30px;
+  border-radius: 2rem;
+}
+
+#cross{
+  margin: 2px 200px;
+}
+.inner {
+  background-color: rgb(37, 102, 102);
+  height: 260px;
+  width: 250px;
+  display: none; /* hide by default */
+  /* add grid styles here */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
