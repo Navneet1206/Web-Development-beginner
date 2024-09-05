@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8796c4;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    background-color: #3e52a0;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+    /* Needed for dropdown positioning */
+    margin: 0 100px;
+}
+h1{
+    color: #8796c4;
+}
+.chat{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.chat_box{
+    background-color:#eee6f7 ;
+    height: 50px;
+    width: 50px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    text-align: left;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* Show dropdown on hover */
+}
+
+.toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.main_section{
+    height: 50vh;
+}
+
+.footer__section{
+    height: 1200px;
+    width: 100%;
+    background-color: #3e52a0;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #8796c4;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .dropdown-content {
+        position: relative;
+        /* Change to relative for mobile */
+        min-width: 100%;
+        /* Full width on mobile */
+    }
+
+    .dropdown-content a {
+        padding: 10px;
+    }
+}
