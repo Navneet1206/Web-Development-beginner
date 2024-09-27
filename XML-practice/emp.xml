@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <employee>
+        <firstname>firstname A</firstname>
+        <lastname>lastname A</lastname>
+        <contact>contact A</contact>
+    </employee>
+    <employee>
+        <firstname>firstname B</firstname>
+        <lastname>lastname B</lastname>
+        <contact>contact B</contact>
+    </employee>
+</company>
